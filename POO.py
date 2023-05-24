@@ -17,13 +17,13 @@ class ContaBancaria:
 
 
 # Exemplo de uso
-conta = ContaBancaria("Jorge", 100)  # Criar uma nova conta com saldo inicial de R$ 100
+conta = ContaBancaria("Jorge", 100)  # Aqui eu criei uma nova conta com saldo inicial de R$ 100
 
-conta.depositar(250)  # Depositar R$ 50
+conta.depositar(250)  # Depositei R$ 50
 conta.consultar_saldo()  # Saldo atual: R$ 150.00
 
-conta.sacar(30)  # Sacar R$ 30
+conta.sacar(30)  # Saquei R$ 30
 conta.consultar_saldo()  # Saldo atual: R$ 120.00
 
-conta.sacar(200)  # Tentar sacar R$ 200 (saldo insuficiente)
+conta.sacar(200)  # Tentei sacar R$ 200 (saldo insuficiente)
 conta.consultar_saldo()  # Saldo atual: R$ 120.00
